@@ -1,0 +1,91 @@
+{
+  "installMethod": "unknown",
+  "autoUpdates": true,
+  "userID": "b522f1fd1da485ce8ec0b26132397a40082dd37789911163f26053b9b1e01ed5",
+  "fallbackAvailableWarningThreshold": 0.5,
+  "projects": {
+    "/mnt/c/Users/danny/.vscode/new finess app": {
+      "allowedTools": [],
+      "history": [],
+      "mcpContextUris": [],
+      "mcpServers": {
+        "filesystem": {
+          "command": "npx",
+          "args": [
+            "-y",
+            "@modelcontextprotocol/server-filesystem",
+            "/mnt/c/Users/danny/.vscode/new finess app"
+          ]
+        },
+        "memory": {
+          "command": "npx",
+          "args": [
+            "-y",
+            "@modelcontextprotocol/server-memory"
+          ]
+        },
+        "github": {
+          "command": "npx",
+          "args": [
+            "-y",
+            "@modelcontextprotocol/server-github"
+          ],
+          "env": {
+            "GITHUB_PERSONAL_ACCESS_TOKEN": "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"
+          }
+        },
+        "sequential-thinking": {
+          "command": "npx",
+          "args": [
+            "-y",
+            "@modelcontextprotocol/server-sequential-thinking"
+          ]
+        },
+        "puppeteer": {
+          "command": "npx",
+          "args": [
+            "-y",
+            "@modelcontextprotocol/server-puppeteer"
+          ]
+        },
+        "everything": {
+          "command": "npx",
+          "args": [
+            "-y",
+            "@modelcontextprotocol/server-everything"
+          ]
+        },
+        "supabase": {
+          "command": "npx",
+          "args": [
+            "-y",
+            "@supabase/mcp-server",
+            "--supabase-url",
+            "https://zaexdymhtiwttjbcelsk.supabase.co",
+            "--service-role-key",
+            "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InphZXhkeW1odGl3dHRqYmNlbHNrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1MzM3MDY4MCwiZXhwIjoyMDY4OTQ2NjgwfQ.2X3eZjrxf8S4TW6XgrdrFebnRF9Tvjababb6MAnI2-M"
+          ]
+        },
+        "taskmaster": {
+          "command": "node",
+          "args": [
+            "/mnt/c/Users/danny/.vscode/new finess app/mcp-servers/taskmaster/dist/index.js"
+          ]
+        },
+        "context7": {
+          "command": "node",
+          "args": [
+            "/mnt/c/Users/danny/.vscode/new finess app/mcp-servers/context7/dist/index.js"
+          ]
+        }
+      },
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "ignorePatterns": [],
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false
+    }
+  }
+}
